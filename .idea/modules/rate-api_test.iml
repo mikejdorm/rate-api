@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="rate-api:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="org.rateapi" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/test" />
+          <option name="classpath" value="$MODULE_DIR$/../../build/classes/kotlin/main:/Users/mdorman/dev/miked/rate-api/build/resources/main:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-client-okhttp/3.182.0/120277ecd1110007f4a2d0a336e68d9513817e73/http4k-client-okhttp-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-cloudnative/3.182.0/6992d51b025d7c3adbe723de20fee889da67b1ee/http4k-cloudnative-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-testing-chaos/3.182.0/e645602747ed4140e4940a3e1519519f26e73626/http4k-testing-chaos-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-contract/3.182.0/69a5d08aeef0d4bbcf3bf20ee35f6d0cfbd84de2/http4k-contract-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-security-oauth/3.182.0/25c344f1e58c2e2b71d10c3fb87792ca4394bf83/http4k-security-oauth-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-format-jackson/3.182.0/623d1025fb73da4433c046fe23c4c8e668107c06/http4k-format-jackson-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-server-undertow/3.182.0/4d84e42062db453c000158d5d1c7a5cd03621571/http4k-server-undertow-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-template-handlebars/3.182.0/106d2834271f3584476656f53a41f79745b43f2/http4k-template-handlebars-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-metrics-micrometer/3.194.0/6c287d7f55cdcb776743ecb809387b65333dd062/http4k-metrics-micrometer-3.194.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-testing-hamkrest/3.182.0/293cbbe6e10877bd83dda4efb4c89a76689766fb/http4k-testing-hamkrest-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-testing-approval/3.182.0/5261ee0a21163bf0f61aba2f81ddc17106df279c/http4k-testing-approval-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-testing-webdriver/3.182.0/57c07dc75c78b9e56d597b492a6e5dc439f9c148/http4k-testing-webdriver-3.182.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.194.0/ca06d58eeda86da9bcdf21e3c69405c5c4d2877d/http4k-core-3.194.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.50/bf65725d4ae2cf00010d84e945fcbc201f590e11/kotlin-stdlib-jdk8-1.3.50.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.1-jre/b0e91dcb6a44ffb6221b5027e12a5cb34b841145/guava-28.1-jre.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.2/7539c264413b9b1ff9841cd00058c974b7cd1ec9/slf4j-log4j12-1.7.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.github.jknack/handlebars/4.1.2/62b172b650bdecdb647c7538c4faf140ba4a2423/handlebars-4.1.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-junit5/3.3.2/b0933ab7f06c8a6cca95c27a4360eafe0c3e3ea5/kotlintest-runner-junit5-3.3.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.3.2/1fa91e42d1c7f68f39200f252f61ba489d8cc85/kotlintest-runner-jvm-3.3.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-extensions/3.3.2/88f1270bad2461f28a2530dcd0b902c456d58f04/kotlintest-extensions-3.3.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-core/3.3.2/fbaa624d8dcabca935623d558101869c42cb39ff/kotlintest-core-3.3.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.beust/klaxon/5.0.1/4c1ffe12cd890eef021808dfb2fe2993dfeaf0c9/klaxon-5.0.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.2/4d10922ce4d9c4e22cef8ff5386cb273b9f12281/junit-jupiter-engine-5.4.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.5.1/fc466b57ceda453119bd630c830ec68b93bba7f4/junit-jupiter-api-5.5.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.8.2/15c1949942a7081557d737644a3b182043a1b180/arrow-core-0.8.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.1.1/4c8c6d55ec16c575131f293c9b2cb7b705809a83/okhttp-4.1.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.9.9/446b0567b26965cf7db859ba48a73ab30b4016b7/jackson-module-kotlin-2.9.9.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-assertions/3.3.2/580ed0ea29d3f1553fe9dcbd18adc64acfc94a76/kotlintest-assertions-3.3.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.mockk/mockk/1.9.1/5058fc2840d2247795bc94afa609c824a06520f9/mockk-1.9.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.9.1/8f4e5f96e6dc2f26793184383d8bdaeabb78f71a/mockk-dsl-jvm-1.9.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.50/b499f22fd7c3e9c2e5b6c4005221fa47fc7f9a7a/kotlin-reflect-1.3.50.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/2.2.2/36f483536153f15339a8b48d508e22be7c9c531a/okio-2.2.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-annotations/0.8.2/8b4178e25f04348747a25305df2afd80ee2b2254/arrow-annotations-0.8.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.1/a27082684a2ff0bf397666c3943496c44541d1ca/javax.servlet-api-4.0.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.9.9/4b8a210f1102307ec66028f744a1ede73a40ed2d/jackson-dataformat-xml-2.9.9.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.9.9/52fb643de81a60839750013a520f26b6259ddeff/jackson-module-jaxb-annotations-2.9.9.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9.3/68ddd453458765757fd3ffca9437f9a42d91003e/jackson-databind-2.9.9.3.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.natpryce/result4k/2.0.0/256f8d677d0606a34b17023de6e9eca32a1bdad1/result4k-2.0.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-servlet/2.0.26.Final/561c7b2ae2d3cd4aceed12cd3d92c358338c9e83/undertow-servlet-2.0.26.Final.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-core/2.0.26.Final/577c5a509d70faa4a01dff71fa47bcc8a0c0514d/undertow-core-2.0.26.Final.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.3.0/2d6b521afd7410f3b03640a7a109935d9ebf8025/micrometer-core-1.3.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.8.1/eb2e8ab75598548cc8acf9a1ca227e480e01881e/checker-qual-2.8.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.2/d1a0c5032570e0f64be6b4d9c90cdeb103129029/error_prone_annotations-2.3.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.18/f7aa683ea79dc6681ee9fb95756c999acbb62f5d/animal-sniffer-annotations-1.18.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.4.0/5cc8b7b305ffc79aa124a1a4fe5efab114f28cac/junit-platform-launcher-1.4.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.2/52b70561f65bb397b054876f2d8c6f30b06c3581/junit-platform-engine-1.4.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-suite-api/1.4.0/8c03ee0615180d219c2dac86b004bd5d32b5649c/junit-platform-suite-api-1.4.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.5.1/d94bdac345742fe1b0d993f0be51bb7146579b1b/junit-platform-commons-1.5.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.natpryce/hamkrest/1.7.0.0/485ac2858b7076720fcca88a65fe8cc8883dbf3e/hamkrest-1.7.0.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.github.javadev/underscore/1.47/ff019639bfa5cf6902c9d98bf6cb7ad20615208d/underscore-1.47.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/e006ffd3aa7841e6e9125d9e6691b3a6b7592b05/selenium-api-3.141.59.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.12.1/55819a28fc834c2f2bcf4dcdb278524dc3cf088f/jsoup-1.12.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.1.1/7ed04382bdf0c89c5d87ac462aa4935ae8e85243/kotlinx-coroutines-core-common-1.1.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.9/bfff5af9fb8347d26bbb7959cb9b4fe9a2b0ca5e/jackson-core-2.9.9.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/5.1.0/bd416e84cbd20cb5f2cf13c30b023e814a4d6107/woodstox-core-5.1.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/4.1/b6e20f3760016b70358e9227be904ecb26a50530/stax2-api-4.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.0.Final/b225692a59f7dc3a789d2c85edc06041914e97e7/jboss-logging-3.4.0.Final.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.8.Final/8dafaf230666e526c53e544ab6a9d6ecfcbab4ee/xnio-nio-3.3.8.Final.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-api/3.3.8.Final/7942ba8330c91a12006c912e040d25a77a58c525/xnio-api-3.3.8.Final.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.servlet/jboss-servlet-api_4.0_spec/1.0.0.Final/322892a664ab868bd3ec8561028111f1f928a3f0/jboss-servlet-api_4.0_spec-1.0.0.Final.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/d6b20c0e95c5b38f313cc2ab1a55560cedabe1f/jboss-annotations-api_1.2_spec-1.0.2.Final.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.11/1b035a1a4ce5d3441a4a1a331d04839ef487ec49/HdrHistogram-2.1.11.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.univocity/univocity-parsers/2.8.1/aa34369bc8766909a5633ce29eaba601e8e2e899/univocity-parsers-2.8.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/com.github.wumpz/diffutils/2.2/647f913ef6c350d3b1bc1ffa48a74747a13e89f/diffutils-2.2.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.github.classgraph/classgraph/4.8.1/7120de37e85a2cf12ef807041434fac73eee94cc/classgraph-4.8.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.4.1.201607150455-r/63998ced66e425d9e8bcd0c59f710c98f0c021ff/org.eclipse.jgit-4.4.1.201607150455-r.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/815893df5f31da2ece4040fe0a12fd44b577afaf/commons-io-2.6.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-common/1.9.1/2c51a6b13c8735a4819d89c91b1795c8fc5b2191/mockk-common-1.9.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-jvm/1.9.1/903c006fcf4864f6152a1e08ca1fa63bf40f978b/mockk-agent-jvm-1.9.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.kindedj/kindedj/1.1.0/462731347602a3f24e3f21feec50928f9a657741/kindedj-1.1.0.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.9.1/4fd7932a2cd635d9b1266b97594654f269496edb/mockk-dsl-1.9.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-common/1.9.1/e51943c5f7f9582eb330c238666746c0c9d97487/mockk-agent-common-1.9.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-api/1.9.1/f836690e4bbd99fead6f55115c4e8de850095ca1/mockk-agent-api-1.9.1.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.3/f32e510b239620852fc9a2387fac41fd053d6a4d/byte-buddy-1.9.3.jar:/Users/mdorman/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.9.3/f5b78c16cf4060664d80b6ca32d80dca4bd3d264/byte-buddy-agent-1.9.3.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="rate-api" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../build/classes/java/main" />
+              <option value="$MODULE_DIR$/../../build/classes/kotlin/main" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.50/b499f22fd7c3e9c2e5b6c4005221fa47fc7f9a7a/kotlin-reflect-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.50/59492b8dfb92522ba0ddb5dd1c4d0ef0a4fca1af/kotlin-script-runtime-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.50/b8e0110c386c08f46a8c5e45b8c64aece1914867/kotlin-scripting-common-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.50/53f579e1bee3dab3df915d923ad1bb43bc37cd18/kotlin-scripting-jvm-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="rate-api_main" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-client-okhttp:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-cloudnative:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-testing-chaos:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-contract:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-security-oauth:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-format-jackson:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-server-undertow:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-template-handlebars:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-metrics-micrometer:3.194.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-testing-hamkrest:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-testing-approval:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-testing-webdriver:3.182.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-core:3.194.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:28.1-jre" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jknack:handlebars:4.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.kotlintest:kotlintest-runner-junit5:3.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.kotlintest:kotlintest-runner-jvm:3.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.kotlintest:kotlintest-extensions:3.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.kotlintest:kotlintest-core:3.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: com.beust:klaxon:5.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.arrow-kt:arrow-core:0.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:4.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.9.9" level="project" />
+    <orderEntry type="library" name="Gradle: io.kotlintest:kotlintest-assertions:3.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-dsl-jvm:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.arrow-kt:arrow-annotations:0.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.9.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.natpryce:result4k:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-servlet:2.0.26.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-core:2.0.26.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-core:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.checkerframework:checker-qual:2.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.18" level="project" />
+    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-launcher:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-engine:1.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-suite-api:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.natpryce:hamkrest:1.7.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.javadev:underscore:1.47" level="project" />
+    <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-api:3.141.59" level="project" />
+    <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.woodstox:woodstox-core:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.woodstox:stax2-api:4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.4.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.hdrhistogram:HdrHistogram:2.1.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.latencyutils:LatencyUtils:2.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.univocity:univocity-parsers:2.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.wumpz:diffutils:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.classgraph:classgraph:4.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jgit:org.eclipse.jgit:4.4.1.201607150455-r" level="project" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-common:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-agent-jvm:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.kindedj:kindedj:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-dsl:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-agent-common:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-agent-api:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.9.3" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.9.3" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="rate-api_main" />
+</module>
