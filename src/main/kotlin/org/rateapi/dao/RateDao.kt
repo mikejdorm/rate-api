@@ -172,4 +172,3 @@ class RateDao(rateFilename: String) {
     }
   }
 }
-

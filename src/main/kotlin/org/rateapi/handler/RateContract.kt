@@ -103,4 +103,3 @@ class RateContract(private val rateStoreDao: RateDao) {
     const val END_DATE_TIME = "endDateTime"
   }
 }
-

@@ -41,7 +41,3 @@ fun Api(rateStoreContract: RateContract, metricsContract: MetricsContract): Rout
       routes += rateStoreContract.updateRates()
       routes += metricsContract.getMetrics()
     }
-
-
-
-
