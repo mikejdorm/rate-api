@@ -24,7 +24,7 @@ class MetricsContract(private val registry: MeterRegistry) {
      */
     val body = Body.auto<List<Meter>>().toLens()
     /**
-     * Spec providing the route and queries to perform on the request.
+     * Spec providing the route
      */
     val spec = "/metrics" meta {
       summary = "Retrieves the metrics for the API endpoints."
