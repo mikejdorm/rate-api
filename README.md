@@ -34,11 +34,11 @@ endpoint is provided
   ```
   curl -G -v http://localhost:8081/v1/rate --data-urlencode "startDateTime=2015-07-01T07:00:00-05:00" --data-urlencode "endDateTime=2015-07-01T12:00:00-05:00"
   ```
-* Route - /v1/rate
-* Method - GET
+* Route - `/v1/rate`
+* Method - `GET`
 * Query Params
-  * startDateTime - the start date and time formatted as a  
-  * endDateTime -  the end date and time formatted as a 
+  * `startDateTime` - the start date and time formatted as a  
+  * `endDateTime` -  the end date and time formatted as a 
 * Response Body
   ```
   {
@@ -64,8 +64,8 @@ Rates can be updated in memory within the API by posting a new set of rates as a
         ]
       }'
   ```
-* Route - /v1/rate 
-* Method - POST
+* Route - `/v1/rate`
+* Method - `POST`
 * Request Body
   ```
   {
@@ -103,16 +103,16 @@ Rates can be updated in memory within the API by posting a new set of rates as a
       ]
   }  
   ```
-* Response - 200 code if successful, 400 if a bad request
+* Response - `200` code if successful, `400` if a bad request
 
 ### Metrics
 Metrics for the individual endpoints can be retrieved through a GET requests 
 * Example Request
-  ```aidl
+  ```
   curl -v localhost:8081/v1/metrics | jq .
   ```
-* Route - /v1/metrics
-* Method - GET
+* Route - `/v1/metrics`
+* Method - `GET`
 * Response Body
   ```
   [
@@ -198,8 +198,8 @@ The swagger documents follow the [OpenApi 3.0 format](https://github.com/OAI/Ope
   ```
    curl -v localhost:8081/v1/api/swagger.json | jq .
   ```
-* Route - /v1/api/swagger.json
-* Method - GET
+* Route - `/v1/api/swagger.json`
+* Method - `GET`
 * Response Body 
   ```
   {
