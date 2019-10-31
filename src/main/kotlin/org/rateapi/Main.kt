@@ -8,4 +8,3 @@ import org.http4k.cloudnative.env.Environment
 fun main(args: Array<String>) {
   RateApiServer(Environment.fromResource("prod.properties")).start()
 }
-

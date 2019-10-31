@@ -137,6 +137,7 @@ class RateDao(rateFilename: String) {
         Splitter.on(",").splitToList(daysString)
 
     private fun dayStringToDayOfWeek(dayString: String): DayOfWeek =
+        //TODO there has to be a better way to do this but tues/thurs doesn't fit with simple date format of "EEE"
         when (dayString) {
           "mon" -> DayOfWeek.MONDAY
           "tues" -> DayOfWeek.TUESDAY
