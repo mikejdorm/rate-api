@@ -129,10 +129,7 @@ class RateDao(rateFilename: String) {
     private fun splitTime(timeStr: String, timezone: String): OffsetTime {
       val hour = timeStr.substring(0, 2).toInt()
       val minute = timeStr.substring(2, 4).toInt()
-      val second = 0
-      val millis = 0
-      return OffsetTime.of(hour, minute, second, millis, ZoneId.of(timezone)
-          //TODO using now here is probably not correct with daylist savings
+      return OffsetTime.of(hour, minute, 0, 0, ZoneId.of(timezone)
           .rules.getOffset(Instant.now()))
     }
 
