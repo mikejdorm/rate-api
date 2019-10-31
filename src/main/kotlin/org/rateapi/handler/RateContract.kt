@@ -82,7 +82,7 @@ class RateContract(private val rateStoreDao: RateDao) {
     val rateList = Body.auto<RateList>().toLens()
 
     val spec = "/rate" meta {
-      summary = "Updates rates given a json body containing the new rates"
+      summary = "Updates rates given a JSON body containing the new rates."
     } bindContract Method.POST
 
     val updateRates: HttpHandler = { request: Request ->

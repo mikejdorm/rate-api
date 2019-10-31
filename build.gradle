@@ -19,12 +19,14 @@ buildscript {
     dependencies {
         classpath 'net.saliman:gradle-cobertura-plugin:2.6.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath('se.transmode.gradle:gradle-docker:1.2')
     }
 }
 
 
 apply plugin: 'kotlin' // Required for Kotlin integration
 apply plugin: 'jacoco'
+apply plugin: 'docker'
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 
@@ -34,11 +36,6 @@ sourceSets {
             srcDirs "src/main/resources", "src/main/configs"
         }
     }
-}
-
-jar {
-    baseName = 'rate-api'
-    version = '0.1.0'
 }
 
 repositories {
@@ -63,7 +60,7 @@ dependencies {
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.2'
     compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.2'
 
-    implementation 'com.beust:klaxon:5.0.1'
+    compile 'com.beust:klaxon:5.0.1'
 
     testCompile "org.junit.jupiter:junit-jupiter-api:$junit_version"
     testCompile "org.junit.jupiter:junit-jupiter-engine:$junit_version"
@@ -89,5 +86,18 @@ jacoco {
 jacocoTestReport {
     reports {
         xml.enabled = true
+    }
+}
+
+jar {
+    baseName = 'rate-api'
+    version = '0.1.0'
+    manifest {
+        attributes "Main-Class": "org.rateapi.MainKt"
+    }
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
     }
 }

@@ -13,7 +13,9 @@ import org.http4k.core.Status
 import org.http4k.core.with
 import org.http4k.format.Jackson.auto
 
-
+/**
+ * Contract route for retrieving API metrics.
+ */
 class MetricsContract(private val registry: MeterRegistry) {
 
   fun getMetrics(): ContractRoute {

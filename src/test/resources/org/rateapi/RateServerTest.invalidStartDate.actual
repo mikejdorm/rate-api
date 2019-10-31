@@ -1,0 +1,12 @@
+{
+  "message": "Missing/invalid parameters",
+  "params": [
+    {
+      "name": "startDateTime",
+      "type": "query",
+      "datatype": "string",
+      "required": true,
+      "reason": "Invalid"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ import java.time.OffsetTime
 import java.time.ZoneId
 
 /**
- * A data access layer for retrieving stored routes based on the values stored within
+ * A data access layer for retrieving stored rates based on the values stored within
  * the json rates source file.
  *
  * Rates are stored in a [Map] with the key being the [DayOfWeek] and the value for
@@ -28,11 +28,11 @@ import java.time.ZoneId
  * For example, the following is a diagram of how this is structured.
  *
  *    TUESDAY ->
- *      Range(100, 200) -> 120
- *      Range(201, 300) -> 140
+ *      Range(DateTime1, DateTime2) -> 2000
+ *      Range(DateTime3, DateTime4) -> 1750
  *    WEDNESDAY ->
- *      Range(100, 200) -> 100
- *      Range(201, 300) -> 120
+ *      Range(DateTime1, DateTime2) -> 2000
+ *      Range(DateTime3, DateTime4) -> 1750
  *
  * This data structure simplifies the retrieval of rates based on a start and end time
  * and if a rate lookup has a start and end time which overlaps several rates then the
@@ -59,9 +59,11 @@ class RateDao(rateFilename: String) {
    * @param startDateTime the opening of the range for the lookup
    * @param endDateTime the closing of the range for the lookup
    * @return a rate as an integer if available, or null if the rate is unavailable.
+   * @throws IllegalArgumentException if the start date is after the end date, or the dates are
+   * on different days.
    */
   fun getRate(startDateTime: OffsetDateTime, endDateTime: OffsetDateTime): Int? {
-    log.info("Retrieving rate for range of $startDateTime to $endDateTime")
+    log.debug("Retrieving rate for range of $startDateTime to $endDateTime")
     if (startDateTime.isAfter(endDateTime)) {
       throw IllegalArgumentException(
           "Invalid time range. Start time '$startDateTime' is after the provided end time '$endDateTime'.")
@@ -72,15 +74,11 @@ class RateDao(rateFilename: String) {
     }
     val range = Range.openClosed(
         startDateTime.toOffsetTime(), endDateTime.toOffsetTime())
-    val ranges = rateMap[startDateTime.dayOfWeek]
-    ranges?.asMapOfRanges()?.toList()?.forEach { subRange ->
-      log.info("Date ${startDateTime.dayOfWeek} Range $subRange")
-    }
-    val subRange = ranges?.subRangeMap(range)
+    val subRange = rateMap[startDateTime.dayOfWeek]?.subRangeMap(range)
     if (subRange?.asMapOfRanges()?.size == 1) {
       return Iterators.getLast(subRange.asMapOfRanges().iterator()).value
     }
-    log.info("Returning null for $startDateTime and $endDateTime")
+    log.debug("Returning null for $startDateTime and $endDateTime")
     return null
   }
 

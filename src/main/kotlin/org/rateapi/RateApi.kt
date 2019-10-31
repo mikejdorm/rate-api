@@ -1,6 +1,7 @@
 package org.rateapi
 
 import io.micrometer.core.instrument.simple.SimpleMeterRegistry
+import org.http4k.contract.bind
 import org.http4k.contract.contract
 import org.http4k.contract.openapi.ApiInfo
 import org.http4k.contract.openapi.v3.OpenApi3
@@ -12,6 +13,7 @@ import org.http4k.filter.MetricFilters
 import org.http4k.filter.ServerFilters
 import org.http4k.format.Jackson
 import org.http4k.routing.RoutingHttpHandler
+import org.http4k.routing.routes
 import org.rateapi.handler.MetricsContract
 import org.rateapi.handler.RateContract
 
@@ -30,14 +32,14 @@ fun RateApi(rateStoreContract: RateContract): HttpHandler {
 }
 
 /**
- * Version 1 (v1) of the routes for the API
+ * Version 1 (v1) of the rates API
  */
 fun Api(rateStoreContract: RateContract, metricsContract: MetricsContract): RoutingHttpHandler =
-    contract {
+    routes("/v1" bind contract {
       renderer = OpenApi3(ApiInfo("Rate API", "v1.0",
           "This API stores and provides rates for given time ranges."), Jackson)
       descriptionPath = "/api/swagger.json"
       routes += rateStoreContract.getRate()
       routes += rateStoreContract.updateRates()
       routes += metricsContract.getMetrics()
-    }
+    })

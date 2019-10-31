@@ -12,7 +12,7 @@ import java.time.DayOfWeek
 import java.time.OffsetDateTime
 import java.time.ZoneOffset
 
-class RateStoreDaoTest : StringSpec({
+class RateDaoTest : StringSpec({
 
   val rateStore = RateDao("rates.json")
   val year = 2019
